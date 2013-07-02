@@ -1,0 +1,3 @@
+pyhamcrest
+-e git+https://github.com/behave/behave.git@e9124990ef36dc6b54adf3414782792ff42bdd4f#egg=behave-dev
+pycabara
