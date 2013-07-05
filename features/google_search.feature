@@ -5,8 +5,8 @@ Feature: Search with Google through the pycabara testing tool
   So that I can read good references that relate to the topic
 
 @smoke_test
-Scenario:
+Scenario: Basic search for "pycabara"
 	Given I am on the Google homepage
 	When I enter "pycabara" in the search box
-	And click the Search button
-	Then I should see "pycabara" the results
+	And I click the Search button
+	Then I should see "pycabara" in the results

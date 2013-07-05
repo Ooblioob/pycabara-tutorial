@@ -75,5 +75,5 @@ $ python hello_world.py
 Here's a quick example of how to run some *Behave* smoke tests.
 
 ```
-$ behave -t=smoke_test
+$ behave -t=smoke_test -t=~ignore
 ```
